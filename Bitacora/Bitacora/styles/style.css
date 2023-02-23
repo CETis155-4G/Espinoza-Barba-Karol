@@ -1,0 +1,75 @@
+/*link de la fuente*/
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+body{
+    text-align: center;
+}
+/*colores y fuente del titulo*/
+h1{
+    display: inline-block;
+    position: relative;
+    color:black ;
+    font-family: 'Dancing Script',cursive;
+}
+h1::after,h1::before{
+    content:'';
+    position:absolute;
+    width: 110px;
+    height: 5px;
+    background-color:currentColor;
+    top: 0.6em;
+    transform:scale(0);
+    transition: all 0.2s ease-in ;
+}
+h1:hover::before, h1:hover::after{
+    transform: scale(1);
+}
+h1::before{
+    left: -140px;
+}
+h1::after{
+    right: -140px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #005C98, #505BDA);
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 40px 40px 10px;
+    border-style: solid;
+    border-color: #5F8D4E;
+    margin-bottom: -30;
+}
+
+p{
+    margin: 0.3%; /*Definimos el tamaño del margen que tendra estas etiquetas*/
+    font-size: 15px; /*Tamaño de la letra de los parrafos*/
+    font-family: Arial Black ; /*Estilo y color de la letra de los parrafos*/
+}
+
+.romper-float{
+    clear: both;
+}
+
+img{
+    float: right;
+    margin-right: 20px;
+
+}
+
+p{
+    width: 600px;
+}
