@@ -11,6 +11,7 @@ h1{
     color:black ;
     font-family: 'Dancing Script',cursive;
 }
+/*animaciones del titulo*/
 h1::after,h1::before{
     content:'';
     position:absolute;
@@ -43,7 +44,7 @@ h1::after{
     position: relative;
     overflow: hidden;
 }
-
+/*margen */
 body {
     width: 1100px;
     margin: 0 auto;
@@ -59,11 +60,11 @@ p{
     font-size: 15px; /*Tamaño de la letra de los parrafos*/
     font-family: Arial Black ; /*Estilo y color de la letra de los parrafos*/
 }
-
+/*acomodar la imagen */
 .romper-float{
     clear: both;
 }
-
+/*configurar imagenes*/
 img{
     float: right;
     margin-right: 20px;
