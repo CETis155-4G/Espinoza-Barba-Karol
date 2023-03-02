@@ -1,15 +1,17 @@
+/*color de fondo*/
 body{
     background-color: rgb(124, 100, 211);
     font-family: "arial";
 }
 
+/*margen del cuerpo*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/*cuadro donde van los campos*/
 .recuperacion-contraseña{
     width: 400px;
     height: 340px;
@@ -23,6 +25,7 @@ body{
     color: white;
 }
 
+/*recuadros de los campos */
 .controls {
     width: 100%;
     border: 1px solid rgb(124, 100, 211);
@@ -33,6 +36,7 @@ body{
     font-weight: bold;
 }
 
+/*configuraciones de los botones*/
 .botons {
     width: 100%;
     height: 40px;
@@ -42,13 +46,14 @@ body{
     margin-bottom: 16px;
 }
 
+/*editar los parrafos*/
 p{
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
 }
-
+/*editar los enlaces*/
 a {
     color: white;
     text-decoration: none;
